@@ -145,6 +145,6 @@ void affiche(Carte_Identite * TCID)
 	}
 	if (affichable == 0)
 	{
-		std::cout << "Aucune carte a supprimer." << std::endl;
+		std::cout << "Aucune carte a afficher." << std::endl;
 	}
 }
