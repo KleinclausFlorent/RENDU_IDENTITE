@@ -3,7 +3,7 @@
 //BUT : Boucle de base du projet / gestion du tableau de carte par l'utilisateur
 //ENTREE : Tableau de carte et commandes utilisateur
 //SORTIE : TABLEAU Modifier ou on quitte le programme
-int choix(Carte_Identite* TCID)
+void choix(Carte_Identite* TCID, int& deroul)
 {
 	char choix;
 	std::cout << std::endl;
@@ -33,13 +33,11 @@ int choix(Carte_Identite* TCID)
 		creer(TCID);
 		break;
 	case 'q':
-		return 1;
+		deroul = 1;
 		break;
 	default:
 		break;
 	}
-	return 0;
-
 }
 
 //But : Modification d'un carte dans le tableau de carte

@@ -11,8 +11,7 @@ int main() {
 	std::cout << "Bienvenue dans le programme de gestion de carte d'identite de Florent Kleinclaus" << std::endl;
 	while (deroul == 0)
 	{
-		
-		deroul = choix(TCID);
+		choix(TCID,deroul);
 	}
 
 	system("pause");

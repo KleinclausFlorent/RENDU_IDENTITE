@@ -100,19 +100,19 @@ void Carte_Identite::affiche() const
 //SORTIE : Carte avec données membres choisis par l'utilisateur
 void Carte_Identite::creer()
 {
-	std::cout << "Veuillez entrez le nom ." << std::endl;
+	std::cout << "Veuillez entrez le nom. Veuillez entrez une chaîne." << std::endl;
 	std::cin >> Nom;
 
-	std::cout << "Veuillez entrez le prenom ." << std::endl;
+	std::cout << "Veuillez entrez le prenom. Veuillez entrez une chaîne." << std::endl;
 	std::cin >> Prenom;
 
-	std::cout << "Veuillez entrez la date de naissance ." << std::endl;
+	std::cout << "Veuillez entrez la date de naissance. Veuillez entrez une chaîne." << std::endl;
 	std::cin >> Date_Naissance;
 
-	std::cout << "Veuillez entrez la ville ." << std::endl;
+	std::cout << "Veuillez entrez la ville. Veuillez entrez une chaîne." << std::endl;
 	std::cin >> Ville;
 
-	std::cout << "Veuillez entrez le code postal ." << std::endl;
+	std::cout << "Veuillez entrez le code postal. Veuillez entrez un entier." << std::endl;
 	std::cin >> Code_Postal;
 
 
@@ -130,7 +130,7 @@ void Carte_Identite::modifier()
 	std::cin >> choix;
 	if (choix == 'y')
 	{
-		std::cout << "Veuillez entrez le nom ." << std::endl;
+		std::cout << "Veuillez entrez le nom. Veuillez entrez une chaîne." << std::endl;
 		std::cin >> Nom;
 	}
 
@@ -138,7 +138,7 @@ void Carte_Identite::modifier()
 	std::cin >> choix;
 	if (choix == 'y')
 	{
-		std::cout << "Veuillez entrez le prenom ." << std::endl;
+		std::cout << "Veuillez entrez le prenom. Veuillez entrez une chaîne." << std::endl;
 		std::cin >> Prenom;
 	}
 
@@ -146,7 +146,7 @@ void Carte_Identite::modifier()
 	std::cin >> choix;
 	if (choix == 'y')
 	{
-		std::cout << "Veuillez entrez la date de naissance." << std::endl;
+		std::cout << "Veuillez entrez la date de naissance. Veuillez entrez une chaîne." << std::endl;
 		std::cin >> Date_Naissance;
 	}
 
@@ -154,7 +154,7 @@ void Carte_Identite::modifier()
 	std::cin >> choix;
 	if (choix == 'y')
 	{
-		std::cout << "Veuillez entrez la Ville ." << std::endl;
+		std::cout << "Veuillez entrez la Ville. Veuillez entrez une chaîne." << std::endl;
 		std::cin >> Ville;
 	}
 
@@ -162,7 +162,7 @@ void Carte_Identite::modifier()
 	std::cin >> choix;
 	if (choix == 'y')
 	{
-		std::cout << "Veuillez entrez le code postal ." << std::endl;
+		std::cout << "Veuillez entrez le code postal. Veuillez entrez un entier." << std::endl;
 		std::cin >> Code_Postal;
 	}
 }

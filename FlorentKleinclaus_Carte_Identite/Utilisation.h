@@ -5,7 +5,7 @@
 #define TAILLE 50
 
 
-int choix(Carte_Identite* TCID);
+void choix(Carte_Identite* TCID, int& deroul);
 void modif(Carte_Identite* TCID);
 void suppr(Carte_Identite* TCID);
 void creer(Carte_Identite* TCID);
